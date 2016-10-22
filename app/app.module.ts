@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
 @NgModule({
-  imports:      [BrowserModules],
+  imports:      [BrowserModule],
   declarations: [AppComponent],
   bootstrap:    [AppComponent]
 })
