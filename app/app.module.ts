@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
+import { <TEX>\bfseries AppComponent</TEX> } from './app.component';
 
 @NgModule({
   imports:      [BrowserModule],
-  declarations: [AppComponent],
-  bootstrap:    [AppComponent]
+<TEX>\boldline</TEX>  declarations: [AppComponent],
+<TEX>\boldline</TEX>  bootstrap:    [AppComponent]
 })
 export class AppModule { }

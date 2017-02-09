@@ -1,5 +1,5 @@
 System.config({
-  transpiler: 'ts',
+<TEX>\boldline</TEX>  transpiler: 'ts',
   typescriptOptions: {
     'experimentalDecorators': true
   },
@@ -8,9 +8,9 @@ System.config({
     rxjs: { }
   },
   meta: {
-    'typescript': { 'exports': 'ts' }
+<TEX>\boldline</TEX>    'typescript': { 'exports': 'ts' }
   },
-  paths: { 'npm:': 'https://unpkg.com/' },
+  paths: { 'npm:': '<TEX>\bfseries https://unpkg.com/</TEX>' },
   map: {
     '@angular/common': 'npm:@angular/common@4.0.0/bundles/common.umd.js',
     '@angular/compiler': 'npm:@angular/compiler@4.0.0/bundles/compiler.umd.js',

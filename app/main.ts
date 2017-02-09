@@ -1,6 +1,6 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { AppModule } from './app.module';
+import { <TEX>\bfseries AppModule</TEX> } from './app.module';
 
-const platform = platformBrowserDynamic();
-platform.bootstrapModule(AppModule);
+<TEX>\boldline</TEX>const platform = platformBrowserDynamic();
+platform.bootstrapModule(<TEX>\bfseries AppModule</TEX>);

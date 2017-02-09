@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'my-app',
+  selector: '<TEX>\bfseries my-app</TEX>',
   template: '<h1>{{ title }}</h1>'
 })
 export class AppComponent {
-  title = 'app works!';
+  title = '<TEX>\bfseries app works!</TEX>';
 }
