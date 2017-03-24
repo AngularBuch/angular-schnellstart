@@ -1,4 +1,4 @@
-var version = '4.0.0-rc.1';
+var version = '4.0.0';
 
 System.config({
   transpiler: 'ts',
