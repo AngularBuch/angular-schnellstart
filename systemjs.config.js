@@ -22,8 +22,8 @@ System.config({
     '@angular/platform-browser': 'npm:@angular/platform-browser' + version + '/bundles/platform-browser.umd.js',
     '@angular/platform-browser-dynamic': 'npm:@angular/platform-browser-dynamic' + version + '/bundles/platform-browser-dynamic.umd.js',
     '@angular/router': 'npm:@angular/router' + version + '/bundles/router.umd.js',
-    'rxjs': 'npm:rxjs',
-    'ts': 'npm:plugin-typescript/lib/plugin.js',
-    'typescript': 'npm:typescript/lib/typescript.js'
+    'rxjs': 'npm:rxjs@5.5.11',
+    'ts': 'npm:plugin-typescript@8.0.0/lib/plugin.js',
+    'typescript': 'npm:typescript@2.9.1/lib/typescript.js'
   }
 });
