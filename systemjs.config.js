@@ -1,7 +1,7 @@
 var version = '4.0.0';
 
-System.config({/*TEX:\bfs*/
-  transpiler: 'ts',/*TEX:\bfe*/
+System.config({<TEX>\bfs</TEX>
+  transpiler: 'ts',<TEX>\bfe</TEX>
   typescriptOptions: {
     'experimentalDecorators': true
   },
@@ -9,10 +9,10 @@ System.config({/*TEX:\bfs*/
     app: { defaultExtension: 'ts' },
     rxjs: { }
   },
-  meta: {/*TEX:\bfs*/
-    'typescript': { 'exports': 'ts' }/*TEX:\bfe*/
+  meta: {<TEX>\bfs</TEX>
+    'typescript': { 'exports': 'ts' }<TEX>\bfe</TEX>
   },
-  paths: { 'npm:': '/*TEX:\bfs*/https://unpkg.com//*TEX:\bfe*/' },
+  paths: { 'npm:': '<TEX>\bfs</TEX>https://unpkg.com/<TEX>\bfe</TEX>' },
   map: {
     '@angular/common': 'npm:@angular/common@' + version + '/bundles/common.umd.js',
     '@angular/compiler': 'npm:@angular/compiler@' + version + '/bundles/compiler.umd.js',

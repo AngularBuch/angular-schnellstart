@@ -1,6 +1,6 @@
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-import { /*TEX:\bfs*/AppModule/*TEX:\bfe*/ } from './app.module';
-/*TEX:\bfs*/
-const platform = platformBrowserDynamic();/*TEX:\bfe*/
-platform.bootstrapModule(/*TEX:\bfs*/AppModule/*TEX:\bfe*/);
+import { <TEX>\bfs</TEX>AppModule<TEX>\bfe</TEX> } from './app.module';
+<TEX>\bfs</TEX>
+const platform = platformBrowserDynamic();<TEX>\bfe</TEX>
+platform.bootstrapModule(<TEX>\bfs</TEX>AppModule<TEX>\bfe</TEX>);
